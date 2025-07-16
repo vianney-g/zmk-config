@@ -54,7 +54,7 @@
             //                    | GUI | LWR | SPC |               | ENT | RSE  | ALT |
 
             bindings = <
-&kp TAB     &kp FR_A                 &kp FR_Z            &kp FR_E  &kp FR_R        &kp FR_T       &kp K_MUTE      &kp C_VOLUME_UP  &kp FR_Y  &kp FR_U      &kp FR_I          &kp FR_O      &kp FR_P            &kp FR_CARET
+&kp TAB     &kp FR_A                 &kp FR_Z            &kp FR_E  &lt 4 FR_R      &kp FR_T       &kp K_MUTE      &kp C_VOLUME_UP  &kp FR_Y  &kp FR_U      &kp FR_I          &kp FR_O      &kp FR_P            &kp FR_CARET
 &kp ESCAPE  &HML LCTRL FR_Q          &HML LEFT_ALT FR_S  &kp FR_D  &kp FR_F        &lt 3 FR_G     &studio_unlock  &kp C_VOL_DN     &kp FR_H  &kp FR_J      &kp FR_K          &kp FR_L      &kp FR_M            &kp FR_MU
 &kp FR_LT   &HML LEFT_GUI FR_DOLLAR  &kp FR_X            &kp FR_C  &kp FR_V        &kp FR_B                                        &kp FR_N  &kp FR_COMMA  &kp FR_SEMICOLON  &kp FR_COLON  &kp FR_EXCLAMATION  &kp FR_W
                                                          &mo 2     &kp LEFT_SHIFT  &kp BACKSPACE                                   &mo 1     &kp FR_SPACE  &kp ENTER
@@ -107,12 +107,12 @@
             >;
         };
 
-        extra_layer_2 {
+        FKEYS {
             display-name = "EXTRA 2";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp F7  &kp F8  &kp F9  &kp F10  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp F4  &kp F5  &kp F6  &kp F11  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &kp F1  &kp F2  &kp F3  &kp F12  &trans
                         &trans  &trans  &trans                  &trans  &trans  &trans
             >;
         };
