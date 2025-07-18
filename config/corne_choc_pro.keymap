@@ -93,10 +93,10 @@
             //                  |     |     |     |               |     |     |     |
 
             bindings = <
-&bootloader   &kp RA(N9)     &kp RA(F)   &kp RA(X)         &kp N9        &kp LS(MINUS)  &trans  &trans  &kp RA(D)      &kp RA(Z)     &kp RA(C)         &kp RA(B)  &kp N0     &kp RA(N0)
-&kp N2        &kp RA(SPACE)  &kp RA(E)   &kp RA(NUMBER_4)  &kp NUMBER_4  &kp EQUAL      &trans  &trans  &kp LS(GRAVE)  &kp NUMBER_5  &kp RA(NUMBER_5)  &kp RA(Q)  &kp GRAVE  &kp N3
-&kp RA(FR_R)  &kp N8         &kp RA(N6)  &kp RA(N2)        &kp MINUS     &kp N1                         &kp LS(EQUAL)  &kp RA(S)     &kp RA(NUMBER_3)  &kp N6     &kp N7     &kp RA(A)
-                                         &trans            &trans        &trans                         &trans         &trans        &trans
+&bootloader  &kp RA(N9)     &kp RA(F)   &kp RA(X)         &kp N9        &kp LS(MINUS)  &trans  &trans  &kp RA(D)      &kp RA(Z)     &kp RA(C)         &kp RA(B)  &kp N0     &kp RA(N0)
+&kp N2       &kp RA(SPACE)  &kp RA(E)   &kp RA(NUMBER_4)  &kp NUMBER_4  &kp EQUAL      &trans  &trans  &kp LS(GRAVE)  &kp NUMBER_5  &kp RA(NUMBER_5)  &kp RA(Q)  &kp GRAVE  &kp N3
+&kp RA(R)    &kp N8         &kp RA(N6)  &kp RA(N2)        &kp MINUS     &kp N1                         &kp LS(EQUAL)  &kp RA(S)     &kp RA(NUMBER_3)  &kp N6     &kp N7     &kp RA(A)
+                                        &trans            &trans        &trans                         &trans         &trans        &trans
             >;
         };
 
