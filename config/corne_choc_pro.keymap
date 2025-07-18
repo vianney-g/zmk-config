@@ -94,7 +94,7 @@
             //                  |     |     |     |               |     |     |     |
 
             bindings = <
-&trans          &kp FR_CARET       &kp RA(FR_F)  &kp RA(X)          &kp FR_C_CEDILLA          &kp FR_DEGREE     &trans  &trans  &kp RA(FR_I)       &kp RA(FR_W)             &kp RA(FR_C)         &kp RA(FR_M)  &kp FR_A_GRAVE  &kp FR_AT
+&bootloader     &kp FR_CARET       &kp RA(FR_F)  &kp RA(X)          &kp FR_C_CEDILLA          &kp FR_DEGREE     &trans  &trans  &kp RA(FR_I)       &kp RA(FR_W)             &kp RA(FR_C)         &kp RA(FR_M)  &kp FR_A_GRAVE  &kp FR_AT
 &kp FR_E_ACUTE  &kp RA(FR_SPACE)   &kp RA(FR_E)  &kp FR_LEFT_BRACE  &kp FR_SINGLE_QUOTE       &kp FR_EQUAL      &trans  &trans  &kp LS(FR_SQUARE)  &kp FR_LEFT_PARENTHESIS  &kp FR_LEFT_BRACKET  &kp RA(FR_A)  &kp FR_SQUARE   &kp FR_DOUBLE_QUOTES
 &kp RA(FR_R)    &kp FR_UNDERSCORE  &kp FR_PIPE   &kp FR_TILDE       &kp FR_RIGHT_PARENTHESIS  &kp FR_AMPERSAND                  &kp FR_PLUS        &kp RA(FR_S)             &kp FR_HASH          &kp FR_MINUS  &kp FR_E_GRAVE  &kp RA(FR_Q)
                                                  &trans             &trans                    &trans                            &trans             &trans                   &trans
