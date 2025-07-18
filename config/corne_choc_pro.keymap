@@ -23,7 +23,7 @@
 
             #binding-cells = <2>;
             tapping-term-ms = <500>;
-            flavor = "tap-unless-interrupted";
+            flavor = "tap-preferred";
             hold-trigger-key-positions = <0 1 5 6 14 15 16 17 18 19 20 28 29 30 31 32 33 40 41 42 2 3 4 5 17 43 44 45>;
             quick-tap-ms = <175>;
             require-prior-idle-ms = <150>;
@@ -58,10 +58,10 @@
             //                   | LWR | SHFT | BSPC |              | RSE | SPC  | ENT |
 
             bindings = <
-&kp TAB     &kp FR_A                 &kp FR_Z         &kp FR_E  &lt 4 FR_R     &kp FR_T        &kp K_MUTE        &kp C_VOLUME_UP  &kp FR_Y        &kp FR_U      &kp FR_I          &kp FR_O             &kp FR_P                       &kp FR_CARET
-&kp ESCAPE  &hml LCTRL FR_Q          &hml LEFT_ALT S  &kp FR_D  &kp FR_F       &lt 3 FR_G      &kp K_PLAY_PAUSE  &kp C_VOL_DN     &mt FR_MU FR_H  &kp FR_J      &kp FR_K          &hmr RIGHT_ALT FR_L  &hmr RCTRL FR_M                &kp FR_U_GRAVE
-&kp FR_LT   &hml LEFT_GUI FR_DOLLAR  &kp FR_X         &kp FR_C  &kp FR_V       &kp FR_B                                           &kp FR_N        &kp FR_COMMA  &kp FR_SEMICOLON  &kp FR_COLON         &hmr RIGHT_GUI FR_EXCLAMATION  &kp FR_W
-                                                      &mo 2     &kp BACKSPACE  &kp LEFT_SHIFT                                     &kp FR_SPACE    &kp ENTER     &mo 1
+&kp TAB          &kp Q                        &kp W            &kp E  &lt 4 R        &kp T           &kp K_MUTE        &kp C_VOLUME_UP  &kp Y                &kp U      &kp I      &kp O             &kp P                 &kp LEFT_BRACKET
+&kp ESCAPE       &hml LCTRL A                 &hml LEFT_ALT S  &kp D  &kp F          &lt 3 G         &kp K_PLAY_PAUSE  &kp C_VOL_DN     &mt LS(BACKSLASH) H  &kp J      &kp K      &hmr RIGHT_ALT L  &hmr RCTRL SEMI       &kp APOSTROPHE
+&kp NON_US_BSLH  &hml LEFT_GUI RIGHT_BRACKET  &kp X            &kp C  &kp V          &kp B                                              &kp N                &kp M      &kp COMMA  &kp PERIOD        &hmr RIGHT_GUI SLASH  &kp W
+                                                               &mo 2  &kp BACKSPACE  &kp LEFT_SHIFT                                     &kp SPACE            &kp ENTER  &mo 1
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp PG_UP PG_DN &inc_dec_kp C_PREV C_NEXT &inc_dec_kp C_BRI_DN C_BRI_UP>;
@@ -77,10 +77,10 @@
             //                    |     |     |       |             |     |     |
 
             bindings = <
-&bt BT_CLR_ALL  &trans                    &trans           &trans        &trans        &trans          &trans  &trans    &trans    &trans    &trans  &trans     &trans   &trans
-&bt BT_CLR      &bt BT_SEL 0              &bt BT_SEL 1     &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &trans  &kp HOME  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &kp END  &trans
-&trans          &kp LC(LA(LS(LEFT_GUI)))  &rgb_ug RGB_TOG  &sys_reset    &bootloader   &studio_unlock                    &trans    &trans    &trans  &trans     &trans   &trans
-                                                           &trans        &trans        &trans                            &trans    &trans    &trans
+&bt BT_CLR_ALL  &bt BT_SEL 0  &bt BT_SEL 1     &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &trans  &trans    &trans    &trans    &trans  &trans     &trans                    &trans
+&bt BT_CLR      &trans        &trans           &trans        &trans        &trans          &trans  &kp HOME  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &kp END                   &trans
+&trans          &trans        &rgb_ug RGB_TOG  &sys_reset    &bootloader   &studio_unlock                    &trans    &trans    &trans  &trans     &kp LS(LA(LC(LEFT_GUI)))  &trans
+                                               &trans        &trans        &trans                            &trans    &trans    &trans
             >;
         };
 
@@ -94,10 +94,10 @@
             //                  |     |     |     |               |     |     |     |
 
             bindings = <
-&bootloader     &kp FR_CARET       &kp RA(FR_F)  &kp RA(X)          &kp FR_C_CEDILLA          &kp FR_DEGREE     &trans  &trans  &kp RA(FR_I)       &kp RA(FR_W)             &kp RA(FR_C)         &kp RA(FR_M)  &kp FR_A_GRAVE  &kp FR_AT
-&kp FR_E_ACUTE  &kp RA(FR_SPACE)   &kp RA(FR_E)  &kp FR_LEFT_BRACE  &kp FR_SINGLE_QUOTE       &kp FR_EQUAL      &trans  &trans  &kp LS(FR_SQUARE)  &kp FR_LEFT_PARENTHESIS  &kp FR_LEFT_BRACKET  &kp RA(FR_A)  &kp FR_SQUARE   &kp FR_DOUBLE_QUOTES
-&kp RA(FR_R)    &kp FR_UNDERSCORE  &kp FR_PIPE   &kp FR_TILDE       &kp FR_RIGHT_PARENTHESIS  &kp FR_AMPERSAND                  &kp FR_PLUS        &kp RA(FR_S)             &kp FR_HASH          &kp FR_MINUS  &kp FR_E_GRAVE  &kp RA(FR_Q)
-                                                 &trans             &trans                    &trans                            &trans             &trans                   &trans
+&bootloader   &kp LEFT_BRACKET  &kp RA(F)   &kp RA(X)         &kp N9        &kp MINUS  &trans  &trans  &kp RA(I)      &kp RA(Z)     &kp RA(C)         &kp RA(SEMI)  &kp N0     &kp RA(N0)
+&kp N2        &kp RA(SPACE)     &kp RA(E)   &kp RA(NUMBER_4)  &kp NUMBER_4  &kp EQUAL  &trans  &trans  &kp LS(GRAVE)  &kp NUMBER_5  &kp RA(NUMBER_5)  &kp RA(Q)     &kp GRAVE  &kp N3
+&kp RA(FR_R)  &kp N8            &kp RA(N6)  &kp RA(N2)        &kp MINUS     &kp N1                     &kp LS(EQUAL)  &kp RA(S)     &kp RA(NUMBER_3)  &kp N6        &kp N7     &kp RA(A)
+                                            &trans            &trans        &trans                     &trans         &trans        &trans
             >;
         };
 
