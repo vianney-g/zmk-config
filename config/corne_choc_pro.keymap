@@ -59,7 +59,7 @@
             bindings = <
 &kp TAB          &kp Q                        &kp W            &kp E  &lt 4 R        &kp T           &kp K_MUTE        &kp C_VOLUME_UP  &kp Y             &kp U      &kp I      &kp O             &kp P                 &kp LEFT_BRACKET
 &kp ESCAPE       &hml LCTRL A                 &hml LEFT_ALT S  &kp D  &kp F          &lt 3 G         &kp K_PLAY_PAUSE  &kp C_VOL_DN     &hmr BACKSLASH H  &kp J      &kp K      &hmr RIGHT_ALT L  &hmr RCTRL SEMI       &kp APOSTROPHE
-&kp NON_US_BSLH  &hml LEFT_GUI RIGHT_BRACKET  &kp X            &kp C  &kp V          &kp B                                              &kp N             &kp M      &kp COMMA  &kp PERIOD        &hmr RIGHT_GUI SLASH  &kp W
+&kp NON_US_BSLH  &hml LEFT_GUI RIGHT_BRACKET  &kp X            &kp C  &kp V          &kp B                                              &kp N             &kp M      &kp COMMA  &kp PERIOD        &hmr RIGHT_GUI SLASH  &kp Z
                                                                &mo 2  &kp BACKSPACE  &kp LEFT_SHIFT                                     &kp SPACE         &kp ENTER  &mo 1
             >;
 
